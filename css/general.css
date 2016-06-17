@@ -1,0 +1,23 @@
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+header {
+  width: 100%;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background: gray;
+}
+.logo {
+  width: 100px;
+  height: 90px;
+  margin-left: 10px;
+  line-height: 100px;
+  background: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
