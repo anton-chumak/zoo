@@ -1,16 +1,25 @@
-.icon(@url, @iconW, @iconH){
-	.inline;
-	background: center;
-	text-align: center;
-	&:hover{
-		height: @iconH+10;
-	}
+.icon(@url, @col: #f87912,@bs: 50px, @h: 80px, @w: 40%){
+	  .inline(@ta: center, @va: top);
+	  width: @w;
+	  height: @h; 
+	  background: url("@{pathToIcon}@{url}.png") no-repeat center;
+	  background-size: @bs;
+	  background-color: @col;
+	  
+	  
 }
 
 
-.inline{
+.inline(@va: middle, @ta: center){
 	display: inline-block;
-	vertical-align: middle;
-	text-align: center;
+	vertical-align: @va;
+	text-align: @ta;
+	
+}
 
+
+.text(@fs: 16px, @fc: #fff){
+	font-size: @fs;
+	color: @fc;
+	padding-top: 60px;
 }

@@ -1,23 +1,512 @@
-.inline {
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
-}
 header {
   width: 100%;
 }
 .container {
   width: 1000px;
   margin: 0 auto;
+}
+.header {
+  max-height: 80px;
   background: gray;
+  border-bottom: 50px solid #f5f5f7;
 }
 .logo {
-  width: 100px;
-  height: 90px;
+  width: 20%;
   margin-left: 10px;
   line-height: 100px;
   background: #fff;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
+}
+.h:hover {
+  height: 100px;
+}
+.h:hover .text {
+  padding-top: 80px;
+}
+.iconHome {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 40%;
+  height: 80px;
+  background: url("../img/home.png") no-repeat center;
+  background-size: 50px;
+  background-color: #f87912;
+}
+.iconHome span {
+  font-size: 16px;
+  color: #fff;
+  padding-top: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.iconMenu {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 40%;
+  height: 80px;
+  background: url("../img/zodiac-menu.png") no-repeat center;
+  background-size: 50px;
+  background-color: #ffcc00;
+}
+.iconMenu span {
+  font-size: 16px;
+  color: #fff;
+  padding-top: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.menu {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  float: right;
+  width: 200px;
+}
+.container-img {
+  width: 98%;
+  margin: 0 auto;
+}
+img {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+#pad {
+  padding: 5px 0 20px 0;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+@media screen and (max-width: 799px) {
+  .container {
+    width: 100%;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  .menu {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+  }
+}
+@media screen and (min-width: 800px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 1000px;
+  }
+  #pad {
+    padding: 5px 0 5px 0;
+  }
+}
+.content-left {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  width: 70%;
+}
+.menu-right {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 29%;
+}
+.menu-right li {
+  color: gray;
+  border-bottom: 1px solid gray;
+  line-height: 40px;
+}
+.footer {
+  background-color: gray;
+  height: 50px;
+}
+@media screen and (max-width: 799px) {
+  .content-left {
+    display: block;
+    width: 100%;
+  }
+  .menu-right {
+    width: 100%;
+  }
+  .icon1 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/1.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon2 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/2.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon3 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/3.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon4 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/4.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon5 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/5.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon6 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/6.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon7 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/7.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon8 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/8.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon9 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/9.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon10 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/10.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon11 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/11.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon12 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/12.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+}
+@media screen and (min-width: 800px) {
+  .icon1 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 45%;
+    height: 150px;
+    background: url("../img/1.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon2 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 45%;
+    height: 150px;
+    background: url("../img/2.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon3 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 45%;
+    height: 150px;
+    background: url("../img/3.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon4 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 45%;
+    height: 150px;
+    background: url("../img/4.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon5 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 45%;
+    height: 150px;
+    background: url("../img/5.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon6 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 45%;
+    height: 150px;
+    background: url("../img/6.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon7 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 45%;
+    height: 150px;
+    background: url("../img/7.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon8 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 45%;
+    height: 150px;
+    background: url("../img/8.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon9 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 45%;
+    height: 150px;
+    background: url("../img/9.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon10 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 45%;
+    height: 150px;
+    background: url("../img/10.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon11 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 45%;
+    height: 150px;
+    background: url("../img/11.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon12 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 45%;
+    height: 150px;
+    background: url("../img/12.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .icon1 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/1.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon2 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/2.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon3 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/3.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon4 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/4.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon5 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/5.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon6 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/6.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon7 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/7.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon8 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/8.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon9 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/9.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon10 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/10.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon11 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/11.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+  .icon12 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    background: url("../img/12.png") no-repeat center;
+    background-size: 150px;
+    background-color: #fff;
+  }
+}
+body {
+  background: url(../img/whitey.png) repeat;
+}
+section {
+  background-color: #fff;
 }

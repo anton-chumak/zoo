@@ -4,16 +4,107 @@ header{
 .container{
 	width: 1000px;
 	margin: 0 auto;
-	background: @backCol;
+	
+	
 
+}
+
+.header{
+	max-height: 80px;
+	background: @backCol;
+	border-bottom: 50px solid #f5f5f7;
 }
 
 .logo{
 	width: @iconW*2;
-	height: @iconH+10%;
+	
 	margin-left: 10px;
 	line-height: 100px;
 	background: @white;
 	.inline;
 
+}
+
+.h:hover{
+	  	height: 100px;
+	  	.text{padding-top: 80px;}
+	  	
+	  } 
+.iconHome{
+	.icon('home');
+	span{
+
+		.text;
+		.inline;
+	}
+	
+	
+		
+}
+
+.iconMenu{
+	.icon('zodiac-menu', @col: #ffcc00);
+	span{
+		.text;
+		.inline;
+	}
+}
+
+.menu{
+	.inline;
+	float: right;
+	width: 200px;
+	
+	
+	
+}
+.container-img{
+	width: 98%;
+	margin: 0 auto;
+	
+	
+	
+}
+
+img{
+	.inline;
+	width: 100%;
+	height: auto;
+	
+}
+#pad{
+	padding: 5px 0 20px 0;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+@media screen and (max-width: 799px){
+	.container{
+	width: 100%;
+	}
+	.logo{
+		margin-left: 0;
+	}
+	.menu{
+		.inline(@ta: right);
+	}
+	
+	
+}
+@media screen and (min-width: 800px){
+	.container{
+	width: 100%;
+	}
+}
+
+
+
+
+
+@media screen and (min-width: 1000px){
+	.container{
+	width: 1000px;
+	}
+	#pad{
+	padding: 5px 0 5px 0;
+}
 }
